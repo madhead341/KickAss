@@ -5,7 +5,6 @@
 </div>
 <div align="center">
   Please give this repo a ⭐️ <br>
-  <a href="https://github.com/madhead341/kickass#-usage">Usage</a> | <a href="https://discord.gg/multitool">Discord</a> | <a href="https://github.com/madhead341/kickass#warning-disclaimer">Disclaimer</a> | <a href="https://github.com/madhead341/kickass#-vip">Vip</a>
 </div>
 
 ## 📍 About
