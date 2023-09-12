@@ -47,10 +47,12 @@ KickAss is a multittool written in python that i made because i was inspired by 
 
 
 ## 👑 VIP
-* Enter the [discord server](https://discord.gg/multitool) to discover the VIP features of KickAss multitool.
+* Add me on Discord to discover the VIP features of KickAss multitool. (lloserr#0)
+* The Discord server has been terminated and i cannot continue to keep making new servers and getting banned.
+* KickAss VIP is $20 for a lifetime license.
 
 ## 🤔 Support
-If you have any issues, join the [discord server](https://discord.gg/multitool).
+If you have any issues, add me on Discord. (lloserr#0)
 
 ## :warning: Disclaimer
 Please note that the info and information contained in this program is for educational purposes only and should not be used to unauthorized / illegal activities. The developer and contributors are not responsible for any misuse of this software.
