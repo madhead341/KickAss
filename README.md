@@ -8,6 +8,7 @@
 </div>
 
 ## 📍 About
+(VIP IS DISCONTINUED)
 KickAss is a multittool written in python that i made because i was inspired by [Astri](https://github.com/astros3x/Astri) and i wanted to make a tool like that, i had the links i needed, i just had to start coding, i didn't know where to start but 2loop and CaptainBeluga helped me out if i had issues. Now its an actual working program that has **40 different options**.
 
 ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) ![version](https://img.shields.io/badge/python-3.9-green) ![platfrom](https://img.shields.io/badge/platform-windows-lightgrey)
