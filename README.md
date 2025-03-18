@@ -5,10 +5,11 @@
 </div>
 <div align="center">
   Please give this repo a ⭐️ <br>
+  This program is discontinued fully.
 </div>
 
 ## 📍 About
-(VIP IS DISCONTINUED)
+(DISCONTINUED)
 KickAss is a multittool written in python that i made because i was inspired by [Astri](https://github.com/astros3x/Astri) and i wanted to make a tool like that, i had the links i needed, i just had to start coding, i didn't know where to start but 2loop and CaptainBeluga helped me out if i had issues. Now its an actual working program that has **40 different options**.
 
 ![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg) ![version](https://img.shields.io/badge/python-3.9-green) ![platfrom](https://img.shields.io/badge/platform-windows-lightgrey)
@@ -48,12 +49,10 @@ KickAss is a multittool written in python that i made because i was inspired by 
 
 
 ## 👑 VIP
-* Add me on Discord to discover the VIP features of KickAss multitool. (lloserr#0)
-* The Discord server has been terminated and i cannot continue to keep making new servers and getting banned.
-* KickAss VIP is $20 for a lifetime license.
+discontinued
 
 ## 🤔 Support
-If you have any issues, add me on Discord. (lloserr#0)
+No support, program stopped working, it was fun while it lasted.
 
 ## :warning: Disclaimer
 Please note that the info and information contained in this program is for educational purposes only and should not be used to unauthorized / illegal activities. The developer and contributors are not responsible for any misuse of this software.
